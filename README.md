@@ -17,10 +17,21 @@ Before running this application, ensure you have the following installed on your
    git clone https://github.com/your-username/user-registration-login.git
    cd user-registration-login
 
-npm install
 
-mongod
+2. **Install dependencies:**
+   ```bash
+   npm install
 
+
+3. **Start the MongoDB server:**
+   ```bash
+   mongod
+
+ 4. **Start the application:**
+   ```bash
+node ./server.js
+    or
 npm start
 
- 
+Access the application:
+Open your web browser and go to http://localhost:3000
