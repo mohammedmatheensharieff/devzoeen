@@ -1,37 +1,26 @@
-# devzoeen
+# User Registration and Login System
 
-Prerequisites
+This project implements a simple user registration and login system using Node.js, Express, MongoDB, and bcrypt for password hashing.
+
+## Prerequisites
+
 Before running this application, ensure you have the following installed on your machine:
 
-Node.js: Download and install Node.js
-MongoDB: Download and install MongoDB
-Getting Started
-Follow these steps to get the project up and running on your local machine:
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
 
-Clone the repository:
+## Getting Started
 
-bash
-Copy code
-git clone https://github.com/your-username/user-registration-login.git
-Navigate to the project directory:
+1. **Clone the repository:**
 
-bash
-Copy code
-cd user-registration-login
-Install dependencies:
+   ```bash
+   git clone https://github.com/your-username/user-registration-login.git
+   cd user-registration-login
 
-bash
-Copy code
 npm install
-Start the MongoDB server:
 
-bash
-Copy code
 mongod
-Start the application:
 
-bash
-Copy code
 npm start
-Open your web browser and go to http://localhost:3000 to access the application.
+
  
